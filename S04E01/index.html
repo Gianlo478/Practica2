@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/funciones.js"></script>
+    </head>
+    <body>
+        <form>
+            <label for="username">Username: </label><br>
+            <input type="text" name="" id="username"><br>
+            <label for="nombre">Nombres: </label><br>
+            <input type="text" name="" id="nombre"><br>
+            <label for="apellido">Apellidos: </label><br>
+            <input type="text" name="" id="apellido"><br>
+            <label for="edad">Edad: </label><br>
+            <input type="number" name="" id="edad"><br>
+            <label for="password">Contraseña: </label><br>
+            <input type="password" name="" id="password"><br>
+            <button id="btnEnviar" type="button">Enviar</button>
+            <button id="btnEnviarConDOM" type="button">Enviar con DOM</button>
+            <button id="btnShowAll" type="button">Listar todos los usuarios</button>
+        </form>  
+        <hr>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody id="tab_body1">
+            </tbody>
+        </table>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Edad</th>
+                    <th>Contraseña</th>
+                </tr>
+            </thead>
+            <tbody id="tab_body2">
+            </tbody>
+        </table>
+    </body>
+</html>
